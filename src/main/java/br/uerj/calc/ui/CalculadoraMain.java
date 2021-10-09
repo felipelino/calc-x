@@ -48,8 +48,8 @@ public class CalculadoraMain extends JFrame implements ActionListener, KeyListen
     Funcao funcaoFx;
     double funcX1;
     double funcX2;
-    relatorioCalc jRelatorio;
-    help jAjuda;
+    RelatorioCalc jRelatorio;
+    Help jAjuda;
     String op1;
     String op2;
     private JMenuBar barraMenu;
@@ -1447,7 +1447,7 @@ public class CalculadoraMain extends JFrame implements ActionListener, KeyListen
     private void relatorio() {
         if (this.jRelatorio == null || !this.jRelatorio.isShowing()) {
             this.g1Relatorio.setBorder(BorderFactory.createLoweredBevelBorder());
-            (this.jRelatorio = new relatorioCalc(this.getLocation())).show();
+            (this.jRelatorio = new RelatorioCalc(this.getLocation())).show();
         }
         else {
             this.g1Relatorio.setBorder(BorderFactory.createRaisedBevelBorder());
@@ -1465,7 +1465,7 @@ public class CalculadoraMain extends JFrame implements ActionListener, KeyListen
     
     private void ajuda() {
         if (this.jAjuda == null || !this.jAjuda.isShowing()) {
-            (this.jAjuda = new help(this.getLocation())).show();
+            (this.jAjuda = new Help(this.getLocation())).show();
         }
     }
     

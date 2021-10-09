@@ -27,7 +27,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 
-public class relatorioCalc extends JFrame implements ActionListener
+public class RelatorioCalc extends JFrame implements ActionListener
 {
     JButton btSalva;
     JButton btLimpa;
@@ -35,7 +35,7 @@ public class relatorioCalc extends JFrame implements ActionListener
     private Container cp;
     private String arqNome;
     
-    relatorioCalc(final Point pontoMain) {
+    RelatorioCalc(final Point pontoMain) {
         super("Relat\u00f3rio dos C\u00e1lculos");
         this.arqNome = null;
         final Image iconeRelat = Toolkit.getDefaultToolkit().getImage(this.getClass().getClassLoader().getResource("img/bloco.gif"));

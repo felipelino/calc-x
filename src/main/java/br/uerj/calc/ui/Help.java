@@ -14,12 +14,12 @@ import javax.swing.JTextArea;
 import java.awt.Container;
 import javax.swing.JFrame;
 
-public class help extends JFrame
+public class Help extends JFrame
 {
     private Container cp;
     private JTextArea areaTexto;
     
-    help(final Point pontoMain) {
+    Help(final Point pontoMain) {
         super("Ajuda para Calc-X 1.0");
         final Image iconeAjuda = Toolkit.getDefaultToolkit().getImage(this.getClass().getClassLoader().getResource("img/ajuda.gif"));
         this.setIconImage(iconeAjuda);
