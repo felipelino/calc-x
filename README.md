@@ -1,4 +1,4 @@
-# Jogo da Forca
+# Calc-X
 
 This project is a Calculator in Portuguese made in 2005. 
 I recovered it from my days at University.
